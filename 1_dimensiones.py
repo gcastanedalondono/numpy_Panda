@@ -43,6 +43,10 @@ print("también puede estar la matriz diagonal")
 diag=np.diag([1,2,3])
 print(diag)
 
+print("método random")
+random = np.random.random((2,3))
+print(random)
+
 
 
 
