@@ -8,31 +8,41 @@ escalar = np.array(27)
 print(type(escalar))
 print(escalar)
 
-#Pero queremos almacenar la temperatura de toda la semana
-vector=np.array([30,29,31,34, 35, 36, 42 ])
+vector =np.array([30, 29,32,35,37,38, 42])
 print(vector)
-#cuando son  de dimsesión dos, son matrices
-matrix =np.array([[1,2,3],[4,5,6],[7,8,9]])
-print(matrix)
+print(type(vector))
 
-tensor =np.array([[[1,2],[3,4], [5,6], [7,8]]])
+#Para matrices
+print("para matrices, en otros lenguajes las listas quedaban como algo derecho")
+print("ya así quedan con el orden que es")
+matriz = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(matriz)
+
+print("Creando un tensor")
+tensor=np.array([[[1,2],[3,4],[5,6],[7,8]]])
 print(tensor)
 
-#Hay varios métodos
+print("Hay seis mecanicos generales para crear arrayas en numpy")
+print(" el primero es conversión de otras estrucutras de datos como listas y tuplas")
+print("La segunda son las funciones de creaciónd e arrayas de numpy, crear una matriz de cero")
+print("la replicación, unión o mutación de arrays ")
+print("lectura desde disco o medios personalizados")
+print("creación de arrays desde bytes crudos")
+print("uso de funciones especiales de bibliotecas")
 
-#método array
-array_arange = np.arange(10)
+print("usaremos un método de arange ")
 
-#para que me pase la matrix identidad
-eye_matrix= np.eye(6)
+array_arange=np.arange(10)
+print(array_arange)
+
+print("podemos crear la matriz identidad, pones la dimensión")
+eye_matrix=np.eye(4)
 print(eye_matrix)
 
-#Para la matrix diagonal
-diag = np.diag([1,2,3])
+print("también puede estar la matriz diagonal")
+diag=np.diag([1,2,3])
 print(diag)
 
-#random
-random =np.random.random((2,3))
-print(random)
+
 
 
