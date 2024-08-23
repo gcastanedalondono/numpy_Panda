@@ -13,7 +13,6 @@ print("su forma")
 print(array.shape)
 print("tipo de dato")
 print(array.dtype)
-
 print("nos dice el tipo de elemento que tenemos, entero, flotante o booleano")
 print("tenemos el uint 8, representa valores de un byte, entre 0 -255, no negativos, puede ser como los colores ")
 print("float32, representa valores decimales para cálculos de precisión moderada pero necestian ahorrar memoria")
