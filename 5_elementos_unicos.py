@@ -19,6 +19,21 @@ print(counts)
 print("respecto a performance, hay que saber cuales elementos generan copias y cuales vistas")
 
 array_x = np.arange(10)
-view_y= array_x[1:13]
+view_y= array_x[1:3]
 print(array_x)
 print(view_y)
+print("ahí cambiamos el valor de las posiciones 1 y3")
+print("Ahi el que opera sobre la raíz sufre un cambio")
+array_x[1:3] =[10, 11]
+print(array_x)
+print(view_y)
+
+print("vamos a trabajar con copias")
+
+array_x = np.arange(10)
+copy_x =array_x[[1,2]]
+print(copy_x)
+array_x[1:3]=[10,11]
+print(copy_x)
+
+print("los arrays son muy manipulables")
