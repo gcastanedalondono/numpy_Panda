@@ -29,9 +29,21 @@ print(array[index])
 print("podmeos crear matrices con números aleatorios")
 array = np.random.randint(1,10, size=(3,3))
 print(array)
+array_exe=np.random.randint(1,200, size=(5,5))
+print("ejemplo de matrix grande")
+print(array_exe)
+print("la posición (0,1)")
+print(array_exe[0,1])
+print("queremos un subarray de las dos primeras filas")
+print(array_exe[:2,:2])
+
 print("podemos imprimir una posición especifica")
 print(array[0,1])
 
+array_emunah =np.array(["HaShem", "Nachman", "Breslev", "Shejina"])
+print(array_emunah)
+indexe =[1,0,2]
+print(array_emunah[indexe])
 print("hasta el momento hemos extraído un elemento, pero se pueden sacar cortes más largos")
 print(array[:2,:2])
 

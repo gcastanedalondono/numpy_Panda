@@ -3,7 +3,8 @@ import numpy as np
 print("numpy trata los arrays y sus operaciones alargandoles la longitud de forma implicita")
 print("vamos a trabajar con una lista de precios de una tienda")
 
-prices =np.array([100, 200, 300])
+
+prices =np.array([100, 200, 300, 500, 800])
 discount =np.array([0.9])
 discount_prices = prices*discount
 print(discount_prices)
@@ -12,8 +13,10 @@ print("ejemplo generando un array de números aleatorios")
 prices =np.random.randint(100, 500, size=(3,3))
 discount = np.array([10, 20, 30])
 discount_prices =prices + discount
+print("los precios son:")
 print(prices)
-
+print("los descuentos son")
+print(discount)
 print("precios + descuentos")
 print(discount_prices)
 
