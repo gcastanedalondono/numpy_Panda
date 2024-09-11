@@ -1,10 +1,12 @@
 print("La indexación y slicing, permiten trabajar subconjuntos para evitar trabajar sobre la totalidad de datos")
 import numpy as np
 array= np.array([10, 20, 30, 40, 50])
+print(array[2])
 print("el segundo elemento")
 print(array[1])
 print("el último elemento")
 print(array[-1])
+
 
 print("podemos acceder a subconjuntos utilizando variable[1:1]")
 print(array[0:4])
@@ -20,6 +22,7 @@ bool_index = array > 25
 print(bool_index)
 print(type(bool_index))
 
+print("para que me muestre extraiga los elementos por medio de cierto indice")
 index = [2,0,4]
 print(array[index])
 

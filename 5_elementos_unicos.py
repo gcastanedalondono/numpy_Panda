@@ -6,7 +6,7 @@ print("se quiere sacar elementos únicos y sacar su frecuencia")
 survey_responses = np.array(["bueno", "excelente", "malo",
                              "bueno", "malo", "excelente",
                              "bueno", "bueno", "malo",
-                             "excelente", "bueno", "malo", "malo"])
+                             "excelente", "bueno", "malo", "malo", "HaShem ayudame con la ansiedad"])
 
 print("queremos ver los elementos que son únicos")
 print(np.unique(survey_responses))
