@@ -32,4 +32,5 @@ matrix = np.array([[1,2,3], [4,5,6], [7,8,9]])
 flattened_array = matrix.flatten()
 print(matrix)
 print(flattened_array)
+print("esto se utiliza en deep learning para que lo que se toma de una pantalla pase por cada una de las neuronas")
 
