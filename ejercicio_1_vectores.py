@@ -89,6 +89,6 @@ print("el mes con menor venta de B es", mes_menor_ventas_B)
 mes_menor_ventas_C = months[np.argmin(product_C)]
 print("el mes con menor venta de C es", mes_menor_ventas_C)
 
-print("sección de matrices")
+
 
 
